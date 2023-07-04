@@ -3,35 +3,32 @@
 *{ margin: 0;
    box-sizing: border-box; }
 
-
-    
 #img_logo{
     left: 100px;
     position: absolute;
-    top:10px;
+    top:25px;
     width: 200px;
 }
+
 #texto {
     left:300px;
     position: absolute;
     top:30px
 }
+
 h1 {
-font-size: 50px;
+font-size: 70px;
 font-family:'Comforter', cursive;
 color: #b287e7;
-
 }
 
 h2{
     font-family: 'Varela Round', sans-serif;
     color: rgb(32, 31, 31);
-    
-    
-
 }
 
 /*h1{
+
     font-size: 50px;
     color: #b287e7;
     left: 300px;
@@ -42,33 +39,44 @@ h2{
 
 body>header {
     background-color: rgb(255, 250, 176);
-    height: 150px;   
+    height: 200px;
 }
 
 body>header>div {
     display: inline-block;
-   
 }
-body{
+
+body {
     background-color:rgb(234, 201, 249); ;
 }
 aside {
     border: 1px solid white;
     position: absolute;
     top: 250px;
-    width: 250px;
+    width: 270px;
     right:10px;
     z-index: 2;
-    background-color: rgb(120, 71, 71);
     padding: 2em;
     border-radius: 15px;
-    height: 150px;
+    border-color: black;
+    height: 200px;
     color: white;
-    
-
+    background-color: #5e72d2;
+    background-image: linear-gradient(43deg, #a965b8 0%, #626eba 46%, #a06696 100%);
 }
 
+aside > img {
+    width:150px;
+    height: 100px;
+    padding-left:50px;
+
+}
 a {
+  text-decoration:none;
+  color: rgb(190, 28, 219);
+}
+
+nav>ul>li>a {
     text-decoration: none;
     color:#272727;   
 }
@@ -76,13 +84,13 @@ a {
 a:hover{text-decoration: underline;}
  
 nav {
-    background-color:rgb(252, 215, 215);
+    background-color:rgb(235, 182, 249);
     color: #272727;
     padding-top:10px ;
     padding-right:10px;
     height: 80px;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right:10px;
     border-radius: 1em;
     font-size:1em;
@@ -95,30 +103,34 @@ h3{
 
 #noticia_1 {
     font-family: 'Varela Round', sans-serif;
-    height: 250px;
+    height: 200px;
     text-align: left;
     font-size: 20px;
     padding-top: 50px;
     padding-left: 50px;
+    width: 800px;
+   
 
 }
 
 #noticia_2 {
     font-family: 'Varela Round', sans-serif;
-    height: 250px;
+    height: 200px;
     text-align: left;
     font-size: 20px; 
     padding-top: 50px;
     padding-left: 50px;
+    width: 800px;
 }
 
 #noticia_3 {
     font-family: 'Varela Round', sans-serif;
-    height: 250px;
+    height: 200px;
     text-align: left;
-    font-size: 20px; ;
+    font-size: 20px;
     padding-left: 50px;
     padding-top: 50px;
+    width: 800px;
 }
 
 #comentario_1 {
@@ -148,13 +160,24 @@ h3{
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
 }
+#usuario_1 {
+    width: 70px;
+}
+
+#usuario_2 {
+    width: 70px;
+}
+#usuario_3 {
+
+    width: 70px;
+}
 
 #deja_tu_comentario {
-    height: 400px;
+    height: 350px;
     width: 300px;
     background-color: rgb(235, 182, 249);
     position: absolute;
-    top: 1100px;
+    top: 850px;
     right: 50px;
     padding-top: 20px;
     padding-left: 20px;
@@ -164,8 +187,7 @@ h3{
     display:table;
     align-content:center ;
     font-family:'Varela Round', sans-serif; 
-    
-
+    border-radius: 1em;
 }
 
 h4 {
@@ -182,6 +204,21 @@ footer{
     font-size: 20px;
 }
 
-.usuario{ 
+.comentario{ 
     display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    background-color: rgb(222, 220, 217);
+    margin-left: 10px;
+    border-radius: 1em;
+
+}
+label{
+     width:20px;
+    }
+
+input {
+    width: 200px;
 }

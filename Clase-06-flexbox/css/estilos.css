@@ -1,0 +1,51 @@
+
+body {
+    background-color:#CAC8C9 ;
+}
+
+.rojo {
+    background-color: rgb(255,0,0);
+    /*flex-grow: 1; esto es grow sin js*/
+}
+
+.verde {
+    background-color: #00ff00; /* #0f0 */
+    /*flex-grow: 1;*/
+}
+
+.azul {
+    background-color: blue;
+    /*flex-grow: 2;*/
+}
+.caja {
+    width: 150px;
+    height: 150px;
+}
+
+.flex-container {
+    display: flex;
+    min-height: 300px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-items {
+
+}
